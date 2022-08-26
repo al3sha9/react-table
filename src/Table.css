@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px double black;
+    border-collapse: collapse;}
+    th, td {
+    padding: 10px;
+}
+th {
+    background-color: #FDDF95;   
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
