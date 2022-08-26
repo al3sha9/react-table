@@ -1,15 +1,29 @@
 table, th, td {
     border: 1px double black;
+    
     border-collapse: collapse;}
-    th, td {
+th, td {
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 th {
     background-color: #FDDF95;   
 }
+td{
+    background-color: #fff;
+}
 .box {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  }
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1501876991173-f9c47cd28268?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1119&q=80);
+    height: 100vh;
   }
